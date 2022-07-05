@@ -9,7 +9,9 @@
   <body>
   <nav class="navbar bg-dark">
     <div class="container-fluid">
-        <a class="navbar-brand" style= "color:green;">pagina principal</a>
+      
+        <a href="bootstrap.php" class="navbar-brand" style= "color:green;">pagina principal</a>
+        <a href="funcionarios.php" class="navbar-brand" style= "color:white;">funcionarios</a>
             <form class="d-flex" role="search">
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-success" type="submit">Search</button>
@@ -17,10 +19,11 @@
   </div>
 </nav>
 <<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
-    <div class="carousel-indicators">
-         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
@@ -30,13 +33,23 @@
         <p>Venda Honda civic Branco.</p>
       </div>
     </div>
+
     <div class="carousel-item">
+      <img src="imagens/carro.png" class="d-block" width="100%" height=400px alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5 style="color:red;">Honda civic lindo</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+
+        <div class="carousel-item">
       <img src="imagens/carro.png" class="d-block" width="100%" height=400px alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h5>Second slide label</h5>
         <p>Some representative placeholder content for the second slide.</p>
       </div>
     </div>
+
     <div class="carousel-item">
       <img src="imagens/carro.png" class="d-block" width="100%" heght="400px" alt="...">
       <div class="carousel-caption d-none d-md-block">
