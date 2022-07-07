@@ -93,9 +93,10 @@
     echo "<td>".$indice['salario']."</td>";
     echo "<td>".$indice['descricao']."</td>";
     echo "<td>";
+    echo "<form action= 'editarFuncionarios.php?id=$indice[id]'method >";
     echo "<button class='btn btn-info'>Editar</button>";
     echo "<form action= 'funcionarios.php?id=$indice[id]' method= 'POST'>";
-      echo "<button class= 'btn btn-danger' >Remover</button>";
+      echo "<button type='submit' class= 'btn btn-danger' >Remover</button>";
       echo "</form>";
       echo "</td>";
     echo "</tr>";
